@@ -39,7 +39,7 @@ data_analysis.ipynb: The complete technical workflow, from data cleaning to fina
 
 executive_summary.pdf: A one-page high-level brief designed for executive stakeholders.
 
-### ***💡 Strategic Recommendations ***
+### ***💡 Strategic Recommendations***
 
 
 Fear Strategy: Increase trade frequency by 20% for Alpha/Whale segments to capture mean-reversion alpha.
