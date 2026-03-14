@@ -1,3 +1,4 @@
+
 ## ***Hyperliquid Trader Behavior & Sentiment Analysis***
 This repository contains a comprehensive behavioral analysis of crypto traders on the Hyperliquid exchange. The project correlates high-frequency transactional data with the Crypto Fear & Greed Index to identify how market sentiment drives profitability and risk-taking behavior.
 
