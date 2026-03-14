@@ -15,7 +15,7 @@ Sentiment Correlation: Analysis of performance metrics (PnL, Win Rate, and Drawd
 
 FOMO Detection: Quantifying the shift from patient "Maker" orders to impulsive "Taker" orders as market sentiment warms.
 
-### ***📊 Core Insights ***
+### ***📊 Core Insights***
 
 
 The Profitability Paradox: While "Extreme Greed" offers the highest win rates (38.6%), the largest average daily profits ($5,328) are realized during Fear regimes.
