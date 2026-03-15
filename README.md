@@ -18,10 +18,13 @@ python -m venv venv
 venv\Scripts\activate
 #### ***Activate on Mac/Linux:***
 source venv/bin/activate
+
 Install Dependencies:
 
 pip install pandas matplotlib seaborn jupyter
-Data Placement:
+
+***Data Placement:***
+
 Ensure the data/ folder contains the following files:
 
 historical_data.csv
@@ -30,10 +33,12 @@ fear_greed_index.csv
 
 #### ***🚀 How to Run***
 Launch Jupyter Notebook:
+
 Open your terminal in the project folder and run:
 
 jupyter notebook
-Execute the Analysis:
+
+***Execute the Analysis:***
 
 Open data_analysis.ipynb.
 
