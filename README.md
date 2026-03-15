@@ -65,4 +65,4 @@ The "Greed De-Risking" Rule: Leverage reduction guidelines for Extreme Greed.
 #### ***📂 Deliverables***
 data_analysis.ipynb: Complete technical workflow.
 
-##### ***executive_summary.pdf: One-page summary of insights and rules.***
+executive_summary.pdf: One-page summary of insights and rules
