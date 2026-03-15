@@ -9,12 +9,10 @@ To run this project locally, ensure you have Python installed, then follow these
 
 #### ***Clone the Repository:***
 
-***Bash***
 git clone https://github.com/tiwariakash198/hyperliquid-trader-analysis.git
 cd hyperliquid-trader-analysis
 Create a Virtual Environment (Optional but Recommended):
 
-***Bash***
 python -m venv venv
 #### ***Activate on Windows:***
 venv\Scripts\activate
@@ -22,7 +20,6 @@ venv\Scripts\activate
 source venv/bin/activate
 Install Dependencies:
 
-***Bash***
 pip install pandas matplotlib seaborn jupyter
 Data Placement:
 Ensure the data/ folder contains the following files:
@@ -35,7 +32,6 @@ fear_greed_index.csv
 Launch Jupyter Notebook:
 Open your terminal in the project folder and run:
 
-***Bash***
 jupyter notebook
 Execute the Analysis:
 
