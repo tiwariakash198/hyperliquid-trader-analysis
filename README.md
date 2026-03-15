@@ -47,7 +47,7 @@ Run the cells sequentially (Shift + Enter) to perform data cleaning, merging, an
 The notebook will generate three key visualizations (visual_1_pnl.png, visual_2_aggression.png, and visual_3_segments.png) in the project directory.
 
 #### ***🛠️ Assignment Structure***
-#### ***Part A: Data Preparation & Metric Creation***
+### ***Part A: Data Preparation & Metric Creation***
 Data Merging: Synchronized trade data with the daily Crypto Fear & Greed Index.
 
 Feature Engineering: Created daily metrics for PnL, Win Rate, Taker Ratio, and Long/Short bias.
