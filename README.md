@@ -1,48 +1,68 @@
-
 ## ***Hyperliquid Trader Behavior & Sentiment Analysis***
-This repository contains a comprehensive behavioral analysis of crypto traders on the Hyperliquid exchange. The project correlates high-frequency transactional data with the Crypto Fear & Greed Index to identify how market sentiment drives profitability and risk-taking behavior.
+This project provides a comprehensive behavioral analysis of crypto traders on the Hyperliquid exchange, correlating transactional data with market sentiment indices.
 
-### ***📌 Project Overview***
-The objective was to move beyond aggregate performance metrics and understand the psychological archetypes that define the market. By analyzing 211,224 trades across 32 unique accounts, this study identifies the execution styles that thrive in "Fear" versus those that struggle in "Greed".
+#### ***📌 Project Overview***
+The objective is to analyze how market sentiment ("Fear" vs. "Greed") influences trader profitability, execution style, and risk-taking. The study processes 211,224 trades across 32 unique accounts to identify resilient trading archetypes.
 
-### ***🚀 Key Features***
+⚙️ Setup & Installation
+To run this project locally, ensure you have Python installed, then follow these steps:
 
-Behavioral Segmentation: Traders are categorized into Whales vs. Minnows (Size), Scalpers vs. Position Traders (Frequency), and Alphas vs. Chasers (Execution Style).
+#### ***Clone the Repository:***
 
+***Bash***
+git clone https://github.com/tiwariakash198/hyperliquid-trader-analysis.git
+cd hyperliquid-trader-analysis
+Create a Virtual Environment (Optional but Recommended):
 
-Sentiment Correlation: Analysis of performance metrics (PnL, Win Rate, and Drawdown) across five distinct market regimes.
+***Bash***
+python -m venv venv
+# Activate on Windows:
+venv\Scripts\activate
+# Activate on Mac/Linux:
+source venv/bin/activate
+Install Dependencies:
 
+***Bash***
+pip install pandas matplotlib seaborn jupyter
+Data Placement:
+Ensure the data/ folder contains the following files:
 
-FOMO Detection: Quantifying the shift from patient "Maker" orders to impulsive "Taker" orders as market sentiment warms.
+historical_data.csv
 
-### ***📊 Core Insights***
+fear_greed_index.csv
 
+### ***🚀 How to Run***
+Launch Jupyter Notebook:
+Open your terminal in the project folder and run:
 
-The Profitability Paradox: While "Extreme Greed" offers the highest win rates (38.6%), the largest average daily profits ($5,328) are realized during Fear regimes.
+***Bash***
+jupyter notebook
+Execute the Analysis:
 
+Open data_analysis.ipynb.
 
-The FOMO Signal: Aggression (Taker Ratio) scales linearly with market optimism, rising from 62% to 69% as traders lose patience during bull trends.
+Run the cells sequentially (Shift + Enter) to perform data cleaning, merging, and visualization.
 
+#### ***Review Results:***
+The notebook will generate three key visualizations (visual_1_pnl.png, visual_2_aggression.png, and visual_3_segments.png) in the project directory.
 
-Resilience of Alphas: "Alpha" traders maintain a sentiment-proof win rate (42%-56%) across all regimes, whereas "Chasers" lose money during Extreme Fear.
+#### ***🛠️ Assignment Structure***
+# Part A: Data Preparation & Metric Creation
+Data Merging: Synchronized trade data with the daily Crypto Fear & Greed Index.
 
-### ***🛠️ Tech Stack***
-Language: Python 3.14.2
+Feature Engineering: Created daily metrics for PnL, Win Rate, Taker Ratio, and Long/Short bias.
 
-Libraries: Pandas (Data Alignment), Matplotlib & Seaborn (Visual Analysis)
+# Part B: Behavioral & Segment Analysis
+The Sentiment Paradox: Analysis of profits vs. win rates across regimes.
 
-Environment: VS Code / Jupyter Notebook
+Trader Segmentation: Categorized accounts into Whales, Alphas, and Chasers.
 
-### ***📂 Repository Structure***
-data_analysis.ipynb: The complete technical workflow, from data cleaning to final visualizations.
+# Part C: Actionable Strategic Outputs
+The "Volatility Alpha" Rule: Frequency/sizing strategy for Fear regimes.
 
+The "Greed De-Risking" Rule: Leverage reduction guidelines for Extreme Greed.
 
-executive_summary.pdf: A one-page high-level brief designed for executive stakeholders.
+# 📂 Deliverables
+data_analysis.ipynb: Complete technical workflow.
 
-### ***💡 Strategic Recommendations***
-
-
-Fear Strategy: Increase trade frequency by 20% for Alpha/Whale segments to capture mean-reversion alpha.
-
-
-Greed Strategy: Reduce position sizes by 40% and strictly utilize Limit (Maker) orders to avoid the high costs of FOMO-driven entries.
+# executive_summary.pdf: One-page summary of insights and rules.
