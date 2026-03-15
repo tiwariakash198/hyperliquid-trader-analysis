@@ -10,6 +10,7 @@ To run this project locally, ensure you have Python installed, then follow these
 #### ***Clone the Repository:***
 
 git clone https://github.com/tiwariakash198/hyperliquid-trader-analysis.git
+
 cd hyperliquid-trader-analysis
 
 ***Create a Virtual Environment (Recommended):***
@@ -26,7 +27,7 @@ pip install pandas matplotlib seaborn jupyter
 
 ***Data Placement:***
 
-***Ensure the data/ folder contains the following files:***
+***The data/ folder already contains the following files:***
 
 historical_data.csv
 
