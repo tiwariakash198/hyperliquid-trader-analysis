@@ -16,9 +16,9 @@ Create a Virtual Environment (Optional but Recommended):
 
 ***Bash***
 python -m venv venv
-# Activate on Windows:
+#### ***Activate on Windows:***
 venv\Scripts\activate
-# Activate on Mac/Linux:
+#### ***Activate on Mac/Linux:***
 source venv/bin/activate
 Install Dependencies:
 
@@ -31,7 +31,7 @@ historical_data.csv
 
 fear_greed_index.csv
 
-### ***🚀 How to Run***
+#### ***🚀 How to Run***
 Launch Jupyter Notebook:
 Open your terminal in the project folder and run:
 
@@ -47,22 +47,22 @@ Run the cells sequentially (Shift + Enter) to perform data cleaning, merging, an
 The notebook will generate three key visualizations (visual_1_pnl.png, visual_2_aggression.png, and visual_3_segments.png) in the project directory.
 
 #### ***🛠️ Assignment Structure***
-# Part A: Data Preparation & Metric Creation
+#### ***Part A: Data Preparation & Metric Creation***
 Data Merging: Synchronized trade data with the daily Crypto Fear & Greed Index.
 
 Feature Engineering: Created daily metrics for PnL, Win Rate, Taker Ratio, and Long/Short bias.
 
-# Part B: Behavioral & Segment Analysis
+### ***Part B: Behavioral & Segment Analysis***
 The Sentiment Paradox: Analysis of profits vs. win rates across regimes.
 
 Trader Segmentation: Categorized accounts into Whales, Alphas, and Chasers.
 
-# Part C: Actionable Strategic Outputs
+### ***Part C: Actionable Strategic Outputs***
 The "Volatility Alpha" Rule: Frequency/sizing strategy for Fear regimes.
 
 The "Greed De-Risking" Rule: Leverage reduction guidelines for Extreme Greed.
 
-# 📂 Deliverables
+#### ***📂 Deliverables***
 data_analysis.ipynb: Complete technical workflow.
 
-# executive_summary.pdf: One-page summary of insights and rules.
+##### ***executive_summary.pdf: One-page summary of insights and rules.***
